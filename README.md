@@ -32,15 +32,11 @@ This Slack bot is built using Python and Flask and is designed to interact with 
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/slack-k8s-bot.git
+    git clone https://github.com/waleedmagdy/kubebot
     ```
 2. Navigate into the project directory:
     ```bash
-    cd slack-k8s-bot
-    ```
-3. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
+    cd kubebot
     ```
 
 ## Environment Variables
@@ -57,7 +53,7 @@ You can either set these in your shell environment, or store them in a `.env` fi
 
 1. Start the Flask application:
     ```bash
-    python app.py
+    python bot.py
     ```
 2. The application will start on port 3000 by default. You can visit `http://localhost:3000` to make sure it's running.
 
