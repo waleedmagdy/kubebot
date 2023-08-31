@@ -53,7 +53,7 @@ You can either set these in your shell environment, or store them in a `.env` fi
 
 1. Start the Flask application:
     ```bash
-    python bot.py
+    python app.py
     ```
 2. The application will start on port 3000 by default. You can visit `http://localhost:3000` to make sure it's running.
 
